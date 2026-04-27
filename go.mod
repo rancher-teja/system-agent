@@ -3,7 +3,6 @@ module github.com/rancher/system-agent
 go 1.26.0
 
 replace (
-
 	github.com/rancher/lasso => github.com/rancher-teja/lasso v0.2.9-0.20260423044910-f3dbd8f8eeaa
 	github.com/rancher/wrangler/v3 => github.com/rancher-teja/wrangler/v3 v3.6.0-rc.1.0.20260423053950-42de455630a4
 	// replace those modules from go.opentelemetry.io to elimilate CVEs
