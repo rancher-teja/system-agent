@@ -168,7 +168,7 @@ require (
 	k8s.io/controller-manager v0.37.3 // indirect
 	k8s.io/cri-api v0.37.3 // indirect
 	k8s.io/cri-client v0.34.0 // indirect
-	k8s.io/klog/v2 v2.141.0 // indirect
+	k8s.io/klog/v2 v2.140.0 // indirect
 	k8s.io/kms v0.37.3 // indirect
 	k8s.io/kube-openapi v0.0.0-20260317180543-43fb72c5454a // indirect
 	k8s.io/kubelet v0.34.0 // indirect
@@ -179,6 +179,7 @@ require (
 	sigs.k8s.io/randfill v1.0.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v6 v6.3.3 // indirect
 )
+
 
 replace github.com/rancher/lasso => github.com/rancher-teja/lasso v0.0.0-00010101000000-000000000000
 replace github.com/rancher/wrangler => github.com/rancher-teja/wrangler v0.0.0-00010101000000-000000000000
